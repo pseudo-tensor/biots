@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <img src="vite.svg" className="w-80 m-20" />
+      <div>
+        <img src="biot.png" className=" w-80 m-40" />
+      </div>
       <Footer />
     </>
   );
