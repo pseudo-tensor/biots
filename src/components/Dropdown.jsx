@@ -7,13 +7,13 @@ export default function Dropdown({ children, trigger }) {
 
   return (
     <div
-      className="w-fit relative"
+      className="w-fit relative z-50"
       ref={dropRef}
       onClick={() => setShow((curr) => !curr)}
     >
       <div>{trigger}</div>
       {show && (
-        <ul className=" min-w-max fixed mt-5 right-0 bg-neutral-800 divide-y divide-neutral-700 shadow overflow-hidden">
+        <ul className=" min-w-max fixed mt-4 right-0 bg-neutral-800 divide-y divide-neutral-700 shadow overflow-hidden">
           {children}
         </ul>
       )}

@@ -1,16 +1,18 @@
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/footer";
+import { RecoilRoot } from "recoil";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <div>
-        <img src="biot.png" className=" w-80 m-40" />
-      </div>
-      <Footer />
-    </>
+    <RecoilRoot>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Navigate to="/" />} />
+        </Routes>
+      </BrowserRouter>
+    </RecoilRoot>
   );
 }
 
