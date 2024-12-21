@@ -134,9 +134,9 @@ const ContactForm = () => {
           </div>
 
           <div className="flex border border-gray-400 rounded-md ">
-            <div className="grid px-2 ms:h-[80%] border-r border-gray-400 m-auto align-middle">
+            <div className="ms:h-16 tb:h-[80%] grid place-content-center px-2 border-r border-gray-400 m-auto ">
               <svg
-                class="ms:h-5 ms:w-5 ff:h-7 ff:w-7 text-gray-800 my-auto "
+                class="ms:h-5 ms:w-5 ff:h-7 ff:w-7 text-gray-800  "
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -159,7 +159,7 @@ const ContactForm = () => {
               placeholder="Message"
               value={formData.message}
               onChange={handleChange}
-              className=" w-full p-2 ms:text-base ff:text-md focus:outline-none focus:ring focus:ring-gray-400 transition resize-none bg-gray-50 ms:h-24 tb:h-36"
+              className=" w-full p-2 ms:text-base ff:text-md focus:outline-none focus:ring focus:ring-gray-400 transition resize-none ms:h-24 tb:h-36"
               required
             ></textarea>
           </div>
