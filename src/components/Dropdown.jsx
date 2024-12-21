@@ -7,13 +7,13 @@ export default function Dropdown({ children, trigger }) {
 
   return (
     <div
-      className="w-fit relative z-50"
+      className="w-full relative z-50"
       ref={dropRef}
       onClick={() => setShow((curr) => !curr)}
     >
       <div>{trigger}</div>
       {show && (
-        <ul className=" min-w-max fixed mt-4 right-0 bg-neutral-800 divide-y divide-neutral-700 shadow overflow-hidden">
+        <ul className=" fixed ms:mt-2 tb:mt-3 right-0 bg-neutral-800 divide-y divide-neutral-700 shadow">
           {children}
         </ul>
       )}
@@ -23,7 +23,7 @@ export default function Dropdown({ children, trigger }) {
 
 export function DropdownItem({ children }) {
   return (
-    <li className="flex gap-3 items-center px-10 py-2 text-neutral-50 hover:bg-neutral-700 cursor-pointer">
+    <li className="flex gap-3 items-center px-10 py-2 ms:text-xs tb:text-base text-neutral-50 hover:bg-neutral-700 cursor-pointer">
       {children}
     </li>
   );

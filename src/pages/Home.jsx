@@ -8,7 +8,7 @@ import Map from "../components/MapEmbed";
 
 function Home() {
   return (
-    <>
+    <div>
       <Navbar />
       <Hero />
       <EventsSection />
@@ -16,7 +16,7 @@ function Home() {
       <ContactForm />
       <Map />
       <Footer />
-    </>
+    </div>
   );
 }
 

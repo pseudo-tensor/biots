@@ -5,21 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
  theme: {
+    screens: {
+      'ms': '320px',
+      'ml': '425px',
+      'ff': '540px',
+      'sm': '640px',
+      'tb': '768px',
+      'lg': '1024px',
+    },
     extend: {
-      animation: {
-        slideInLeft: "slideInLeft 0.3s ease-in-out",
-        slideOutRight: "slideOutRight 0.3s ease-in-out",
-      },
-      keyframes: {
-        slideInLeft: {
-          "0%": { transform: "translateX(-100%)", opacity: 0 },
-          "100%": { transform: "translateX(0)", opacity: 1 },
-        },
-        slideOutRight: {
-          "0%": { transform: "translateX(0)", opacity: 1 },
-          "100%": { transform: "translateX(100%)", opacity: 0 },
-        },
-      },
+      
     },
   }, 
   plugins: [],
