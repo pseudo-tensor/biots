@@ -192,7 +192,7 @@ const Testimonials = () => {
                 className="text-gray-600 text-2xl mx-3 hover:text-gray-800 transition"
               >
                 <svg
-                  class="h-8 w-8 text-gray-800"
+                  className="h-8 w-8 text-gray-800"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -221,7 +221,7 @@ const Testimonials = () => {
                 className="text-gray-600 text-2xl mx-3 hover:text-gray-800 transition"
               >
                 <svg
-                  class="h-8 w-8 text-gray-800"
+                  className="h-8 w-8 text-gray-800"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"

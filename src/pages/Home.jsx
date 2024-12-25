@@ -8,7 +8,7 @@ import Map from "../components/MapEmbed";
 
 function Home() {
   return (
-    <div>
+    <div id="home">
       <Navbar />
       <Hero />
       <EventsSection />

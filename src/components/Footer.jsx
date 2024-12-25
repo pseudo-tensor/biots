@@ -12,14 +12,14 @@ function Footer() {
           <p className="text-center">BIOTS Family</p>
           <p className="text-center">biotsbitmesra@gmail.com</p>
         </div>
-        <div className="flex justify-between ms:py-10">
+        <div className="flex justify-between ms:py-6 tb:py-10">
           <a
             href="https://www.facebook.com/depbiots/"
             target="_blank"
             rel="noreferrer"
           >
             <svg
-              class="ms:h-6 ms:w-6 tb:h-8 tb:w-8 text-neutral-400 cursor-pointer"
+              className="ms:h-6 ms:w-6 tb:h-8 tb:w-8 text-neutral-400 cursor-pointer"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -36,7 +36,7 @@ function Footer() {
             rel="noreferrer"
           >
             <svg
-              class="ms:h-6 ms:w-6 tb:h-8 tb:w-8 text-gray-400 cursor-pointer"
+              className="ms:h-6 ms:w-6 tb:h-8 tb:w-8 text-gray-400 cursor-pointer"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -56,7 +56,7 @@ function Footer() {
             rel="noreferrer"
           >
             <svg
-              class="ms:h-6 ms:w-6 tb:h-8 tb:w-8  text-gray-400 cursor-pointer"
+              className="ms:h-6 ms:w-6 tb:h-8 tb:w-8  text-gray-400 cursor-pointer"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -72,7 +72,25 @@ function Footer() {
           </a>
         </div>
       </div>
-      <div className="text-lg text-neutral-400">--------</div>
+      <div className=" flex flex-col justify-center pb-8 text-center gap-2 ms:text-sm tb:text-lg text-neutral-400">
+        <div className="font-bold">Contact Us</div>
+        <div className="text-left grid ms:grid-cols-3 lg:grid-cols-2 ms:gap-4 ml:gap-8 tb:gap-12 lg:gap-5">
+          <div>
+            <p className="font-bold">For Official</p>
+            <p>President</p>
+            <p>BIOTS Team</p>
+          </div>
+          <div>
+            <p className="font-bold">For Queries</p>
+            <p>Ritik Raj</p>
+            <p>Ekkika</p>
+          </div>
+          <div>
+            <p className="font-bold">For Enquiries</p>
+            <p>Nikhil Kumar</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

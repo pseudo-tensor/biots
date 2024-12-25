@@ -26,13 +26,13 @@ const ContactForm = () => {
         <span className="block ms:w-30 ms:mt-1 lg:w-32 h-0.5 bg-black ms:mt-2 lg:mt-3 mx-auto"></span>
       </h2>
       <div className="tb:flex">
-        <div class=" flex-col justify-between sm:mx-3 w-2/4 ms:hidden tb:flex h-vh">
+        <div className=" flex-col justify-between sm:mx-3 w-2/4 ms:hidden tb:flex h-vh">
           <div>
             <img src="biot.png" className="tb:h-44 lg:h-52 mx-auto" />
           </div>
           <div className="flex justify-center gap-2 cursor-pointer tb:mb-2 lg:mb-0">
             <svg
-              class="tb:h-8 tb:w-8 lg:h-10 lg:w-10 text-gray-800"
+              className="tb:h-8 tb:w-8 lg:h-10 lg:w-10 text-gray-800"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -56,7 +56,7 @@ const ContactForm = () => {
           <div className="flex border border-gray-400 rounded-md ">
             <div className="px-2 m-auto border-r border-gray-400">
               <svg
-                class="ff:h-7 ff:w-7 ms:h-5 ms:w-5 text-gray-800"
+                className="ff:h-7 ff:w-7 ms:h-5 ms:w-5 text-gray-800"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -82,7 +82,7 @@ const ContactForm = () => {
           <div className="flex border border-gray-400 rounded-md ">
             <div className="px-2 m-auto border-r border-gray-400">
               <svg
-                class="ms:h-5 ms:w-5 ff:h-7 ff:w-7 text-gray-800"
+                className="ms:h-5 ms:w-5 ff:h-7 ff:w-7 text-gray-800"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -108,7 +108,7 @@ const ContactForm = () => {
           <div className="flex border border-gray-400 rounded-md ">
             <div className="px-2 m-auto border-r border-gray-400">
               <svg
-                class="ms:h-5 ms:w-5 ff:h-7 ff:w-7 text-gray-800"
+                className="ms:h-5 ms:w-5 ff:h-7 ff:w-7 text-gray-800"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -136,7 +136,7 @@ const ContactForm = () => {
           <div className="flex border border-gray-400 rounded-md ">
             <div className="ms:h-16 tb:h-[80%] grid place-content-center px-2 border-r border-gray-400 m-auto ">
               <svg
-                class="ms:h-5 ms:w-5 ff:h-7 ff:w-7 text-gray-800  "
+                className="ms:h-5 ms:w-5 ff:h-7 ff:w-7 text-gray-800  "
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"

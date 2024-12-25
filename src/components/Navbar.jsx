@@ -19,19 +19,31 @@ function Navbar() {
         </div>
       </div>
       <div className="flex font-medium text-lg cursor-pointer">
-        <div className="ms:hidden lg:block p-5 my-2">Home</div>
-        <div className="ms:hidden lg:block p-5 my-2">Events</div>
-        <div className="ms:hidden lg:block p-5 my-2">About Us</div>
-        <div className="ms:hidden lg:block p-5 my-2">Team</div>
-        <div className="ms:hidden lg:block p-5 my-2">Contact Us</div>
-        <div className="ms:hidden lg:block p-5 my-2">Gallery</div>
+        <div className="ms:hidden lg:block p-5 my-2">
+          <a href="home">Home</a>
+        </div>
+        <div className="ms:hidden lg:block p-5 my-2">
+          <a href="events">Events</a>
+        </div>
+        <div className="ms:hidden lg:block p-5 my-2">
+          <a>About Us</a>
+        </div>
+        <div className="ms:hidden lg:block p-5 my-2">
+          <a>Team</a>
+        </div>
+        <div className="ms:hidden lg:block p-5 my-2">
+          <a>Contact Us</a>
+        </div>
+        <div className="ms:hidden lg:block p-5 my-2">
+          <a href="gallery">Gallery</a>
+        </div>
         <div className="ms:block lg:hidden">
           <nav className="flex items-start justify-end ms:py-2 tb:px-5 tb:py-5">
             <Dropdown
               trigger={
                 <Button>
                   <svg
-                    class="h-8 w-8 text-gray-100"
+                    className="h-8 w-8 text-gray-100"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -47,12 +59,18 @@ function Navbar() {
                 </Button>
               }
             >
-              <DropdownItem>Home</DropdownItem>
-              <DropdownItem>Events</DropdownItem>
+              <DropdownItem>
+                <a href="home">Home</a>
+              </DropdownItem>
+              <DropdownItem>
+                <a href="events">Events</a>
+              </DropdownItem>
               <DropdownItem>About Us</DropdownItem>
               <DropdownItem>Team</DropdownItem>
               <DropdownItem>Contact Us</DropdownItem>
-              <DropdownItem>Gallery</DropdownItem>
+              <DropdownItem>
+                <a href="gallery">Gallery</a>
+              </DropdownItem>
             </Dropdown>
           </nav>
         </div>
