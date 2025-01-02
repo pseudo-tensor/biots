@@ -1,20 +1,53 @@
-import Button from "./Button";
-import Dropdown, { DropdownItem } from "./Dropdown";
+import { useEffect } from 'react'
+import Button from './Button'
+import Dropdown, { DropdownItem } from './Dropdown'
 
 function Navbar() {
+  const handleClick = () => {
+    if (window.location.pathname === '/') {
+      // If already on the root route, scroll to the contact section
+      document.getElementById('contact')?.scrollIntoView({
+        behavior: 'smooth',
+      })
+    } else {
+      // Navigate to the root route and store the scroll trigger flag
+      sessionStorage.setItem('scrollToContact', 'true')
+      window.location.href = '/'
+    }
+  }
+
+  useEffect(() => {
+    const scrollToContactFlag = sessionStorage.getItem('scrollToContact')
+
+    if (scrollToContactFlag === 'true') {
+      // Reset the flag after the action
+      sessionStorage.removeItem('scrollToContact')
+
+      // Ensure that the page has fully loaded before attempting to scroll
+      const contactSection = document.getElementById('contact')
+      if (contactSection) {
+        contactSection.scrollIntoView({
+          behavior: 'smooth',
+        })
+      }
+    }
+  }, []) // Run only once when the page has loaded
+
   return (
     <header className="top-0 ms:h-16 tb:h-20 flex justify-between bg-neutral-800 text-neutral-50 font-sans">
       <div className="ms:flex cursor-pointer">
-        <img
-          src="biot.png"
-          className="ms:w-10 ms:my-3 ms:ml-4 tb:w-14 tb:my-3.5 tb:ml-10 "
-        />
+        <a href="home">
+          <img
+            src="biot.png"
+            className="ms:w-10 ms:my-3 ms:ml-4 tb:w-14 tb:my-3.5 tb:ml-10 "
+          />
+        </a>
         <div className="ms:ml-3 tb:ml-5 my-auto">
           <div className="ms:font-bold ms:text-md tb:font-bold tb:text-xl">
-            BIOTS
+            <a href="home">BIOTS</a>
           </div>
           <div className="ms:text-xs tb:text-base font-medium">
-            SOCIETY OF BIOTECHNOLOGISTS
+            <a href="home">SOCIETY OF BIOTECHNOLOGISTS</a>
           </div>
         </div>
       </div>
@@ -29,10 +62,10 @@ function Navbar() {
           <a>About Us</a>
         </div>
         <div className="ms:hidden lg:block p-5 my-2">
-          <a>Team</a>
+          <a href="team">Team</a>
         </div>
         <div className="ms:hidden lg:block p-5 my-2">
-          <a>Contact Us</a>
+          <a onClick={handleClick}>Contact Us</a>
         </div>
         <div className="ms:hidden lg:block p-5 my-2">
           <a href="gallery">Gallery</a>
@@ -51,10 +84,25 @@ function Navbar() {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   >
-                    {" "}
-                    <line x1="3" y1="12" x2="21" y2="12" />{" "}
-                    <line x1="3" y1="6" x2="21" y2="6" />{" "}
-                    <line x1="3" y1="18" x2="21" y2="18" />
+                    {' '}
+                    <line
+                      x1="3"
+                      y1="12"
+                      x2="21"
+                      y2="12"
+                    />{' '}
+                    <line
+                      x1="3"
+                      y1="6"
+                      x2="21"
+                      y2="6"
+                    />{' '}
+                    <line
+                      x1="3"
+                      y1="18"
+                      x2="21"
+                      y2="18"
+                    />
                   </svg>
                 </Button>
               }
@@ -66,8 +114,12 @@ function Navbar() {
                 <a href="events">Events</a>
               </DropdownItem>
               <DropdownItem>About Us</DropdownItem>
-              <DropdownItem>Team</DropdownItem>
-              <DropdownItem>Contact Us</DropdownItem>
+              <DropdownItem>
+                <a href="team">Team</a>
+              </DropdownItem>
+              <DropdownItem>
+                <a onClick={handleClick}>Contact Us</a>
+              </DropdownItem>
               <DropdownItem>
                 <a href="gallery">Gallery</a>
               </DropdownItem>
@@ -76,7 +128,7 @@ function Navbar() {
         </div>
       </div>
     </header>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

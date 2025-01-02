@@ -1,26 +1,29 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
+  })
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
+    const { name, value } = e.target
+    setFormData({ ...formData, [name]: value })
+  }
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form Data Submitted:", formData);
-    alert("Form submitted successfully!");
-  };
+    e.preventDefault()
+    console.log('Form Data Submitted:', formData)
+    alert('Form submitted successfully!')
+  }
 
   return (
-    <div className="tb:w-4/5 lg:3/5 mx-auto text-center font-sans m-10">
+    <div
+      id="contact"
+      className="tb:w-4/5 lg:3/5 mx-auto text-center font-sans m-10"
+    >
       <h2 className="ms:text-xl ml:text-2xl tb:text-3xl lg:text-4xl font-bold ms:mb-4 tb:mb-6 lg:mb-8 text-gray-800 relative inline-block">
         CONTACT US
         <span className="block ms:w-30 ms:mt-1 lg:w-32 h-0.5 bg-black ms:mt-2 lg:mt-3 mx-auto"></span>
@@ -28,7 +31,10 @@ const ContactForm = () => {
       <div className="tb:flex">
         <div className=" flex-col justify-between sm:mx-3 w-2/4 ms:hidden tb:flex h-vh">
           <div>
-            <img src="biot.png" className="tb:h-44 lg:h-52 mx-auto" />
+            <img
+              src="biot.png"
+              className="tb:h-44 lg:h-52 mx-auto"
+            />
           </div>
           <div className="flex justify-center gap-2 cursor-pointer tb:mb-2 lg:mb-0">
             <svg
@@ -64,9 +70,13 @@ const ContactForm = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-                {" "}
-                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />{" "}
-                <circle cx="12" cy="7" r="4" />
+                {' '}
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />{' '}
+                <circle
+                  cx="12"
+                  cy="7"
+                  r="4"
+                />
               </svg>
             </div>
             <input
@@ -118,8 +128,11 @@ const ContactForm = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-                {" "}
-                <path stroke="none" d="M0 0h24v24H0z" />{" "}
+                {' '}
+                <path
+                  stroke="none"
+                  d="M0 0h24v24H0z"
+                />{' '}
                 <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
               </svg>
             </div>
@@ -146,12 +159,30 @@ const ContactForm = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-                {" "}
-                <path stroke="none" d="M0 0h24v24H0z" />{" "}
-                <path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" />{" "}
-                <line x1="12" y1="11" x2="12" y2="11.01" />{" "}
-                <line x1="8" y1="11" x2="8" y2="11.01" />{" "}
-                <line x1="16" y1="11" x2="16" y2="11.01" />
+                {' '}
+                <path
+                  stroke="none"
+                  d="M0 0h24v24H0z"
+                />{' '}
+                <path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" />{' '}
+                <line
+                  x1="12"
+                  y1="11"
+                  x2="12"
+                  y2="11.01"
+                />{' '}
+                <line
+                  x1="8"
+                  y1="11"
+                  x2="8"
+                  y2="11.01"
+                />{' '}
+                <line
+                  x1="16"
+                  y1="11"
+                  x2="16"
+                  y2="11.01"
+                />
               </svg>
             </div>
             <textarea
@@ -172,7 +203,7 @@ const ContactForm = () => {
         </form>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ContactForm;
+export default ContactForm
