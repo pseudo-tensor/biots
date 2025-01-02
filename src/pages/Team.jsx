@@ -9,7 +9,7 @@ function Team() {
       <Navbar />
       <div className=" w-full overflow-hidden text-center ms:my-6 tb:my-8 lg:my-10">
         <h2 className="ms:text-xl ml:text-2xl tb:text-3xl lg:text-4xl font-bold ms:mb-4 tb:mb-6 lg:mb-8 text-gray-800 relative inline-block">
-          EVENTS
+          EXECUTIVE BODY
           <span className="block ms:w-30 ms:mt-1 lg:w-32 h-0.5 bg-black ms:mt-2 lg:mt-3 mx-auto"></span>
         </h2>
       </div>
@@ -105,6 +105,75 @@ function Team() {
           src={image}
           position={'PUBLICITY COORDINATOR'}
           name={'Archeet Bandhul'}
+        />
+      </div>
+      <div className=" w-full overflow-hidden text-center ms:my-6 tb:my-8 lg:my-10">
+        <h2 className="ms:text-xl ml:text-2xl tb:text-3xl lg:text-4xl font-bold ms:mb-4 tb:mb-6 lg:mb-8 text-gray-800 relative inline-block">
+          EXECUTIVE MEMBERS
+          <span className="block ms:w-30 ms:mt-1 lg:w-32 h-0.5 bg-black ms:mt-2 lg:mt-3 mx-auto"></span>
+        </h2>
+      </div>
+
+      <div className="w-[90%] mx-auto ms:p-2 sm:p-3 tb:p-4 grid ms:grid-cols-2 tb:grid-cols-3 lg:grid-cols-4 ms:gap-4 sm:gap-6 tb:gap-8 justify-evenly ms:mb-6 tb:mb-8">
+        <TeamCardSmall
+          src={image}
+          name={'Sweta Kumari'}
+        />
+        <TeamCardSmall
+          src={image}
+          name={'Komal Singh'}
+        />
+
+        <TeamCardSmall
+          src={image}
+          name={'Sonail Karmakar'}
+        />
+        <TeamCardSmall
+          src={image}
+          name={'Aparna Kumari'}
+        />
+        <TeamCardSmall
+          src={image}
+          name={'Rishabh Raj'}
+        />
+        <TeamCardSmall
+          src={image}
+          name={'Shreyas Raj'}
+        />
+        <TeamCardSmall
+          src={image}
+          name={'Kumar Sanyam'}
+        />
+        <TeamCardSmall
+          src={image}
+          name={'Sanjana Kumari'}
+        />
+        <TeamCardSmall
+          src={image}
+          name={'Priyanka Sharma'}
+        />
+        <TeamCardSmall
+          src={image}
+          name={'Swarnim Raj'}
+        />
+        <TeamCardSmall
+          src={image}
+          name={'Adya Pandey'}
+        />
+
+        <TeamCardSmall
+          src={image}
+          name={'Lara Brijkaushly'}
+        />
+
+        <TeamCardSmall
+          src={image}
+          name={'Divya Barnwal'}
+        />
+
+        <TeamCardSmall
+          src={image}
+          name={'Aviroop Shi'}
         />
       </div>
       <Footer />
