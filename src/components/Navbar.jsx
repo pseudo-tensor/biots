@@ -59,7 +59,7 @@ function Navbar() {
           <a href="events">Events</a>
         </div>
         <div className="ms:hidden lg:block p-5 my-2">
-          <a>About Us</a>
+          <a href="aboutus">About Us</a>
         </div>
         <div className="ms:hidden lg:block p-5 my-2">
           <a href="team">Team</a>
@@ -113,7 +113,9 @@ function Navbar() {
               <DropdownItem>
                 <a href="events">Events</a>
               </DropdownItem>
-              <DropdownItem>About Us</DropdownItem>
+              <DropdownItem>
+                <a href="aboutus">About Us</a>
+              </DropdownItem>
               <DropdownItem>
                 <a href="team">Team</a>
               </DropdownItem>

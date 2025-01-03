@@ -5,7 +5,7 @@ import WhoWeAre from '../components/WhoWeAre'
 
 function AboutUs() {
   return (
-    <div>
+    <div id="aboutus">
       <Navbar />
       <WhoWeAre />
       <Timeline />
