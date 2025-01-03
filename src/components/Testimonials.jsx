@@ -7,7 +7,7 @@ const testimonials = [
     role: 'President',
     message:
       'As the President of BIOTS, I am honored to lead a team dedicated to innovation, collaboration, and growth. Our club fosters a vibrant community where students explore their passions, gain skills, and make meaningful contributions. Together, we aim to inspire, empower, and achieve excellence, creating lasting impacts within and beyond our campus.',
-    image: 'test1.png',
+    image: 'AditiSingh_President.png',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const testimonials = [
     role: 'Joint President',
     message:
       'It was a great pleasure to lead and learn with the team of BIOTS, which has exhibited its team spirit from time to time. Under the invaluable guidance of esteemed alumni and faculty advisors, the club has flourished over the period of a few years. BIOTS has the potential to become one of the most representable clubs of BIT Mesra. It will serve as a guiding light for those navigating their careers in biotechnology and beyond. Striking the right balance of fun and learning, it has successfully conquered the minds at BIT and we hope to continue doing so!',
-    image: 'test1.png',
+    image: 'CHINMAYPATADE_JointPresident.jpg',
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const testimonials = [
     role: 'Vice President',
     message:
       'As the Vice President of Biots Club, BIT Mesra, I am passionate about advancing the frontiers of biotechnology and fostering a collaborative environment for students to explore innovative solutions. My role involves organizing events, workshops, and collaborative projects aimed at enhancing technical knowledge and practical skills in biotechnology. I am dedicated to making the Biots Club a platform for learning, creativity, and professional growth for all its members.',
-    image: 'test1.png',
+    image: 'AyushKumar_VicePres.jpg',
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const testimonials = [
     role: 'Technical Head',
     message:
       "As the Technical Head of BIOTS Club, I oversee and guide the technical endeavors of our team, ensuring excellence in managing our digital platforms, including the website. My role is to mentor the technical team, foster innovation, and maintain a robust online presence that reflects our club's vision and commitment to biotechnology advancements.",
-    image: 'test1.png',
+    image: 'AryanRajsaxena_TechHead.jpg',
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const testimonials = [
     role: 'General Secretary',
     message:
       'As the General Secretary of BIOTS Club, I am honored to lead a vibrant community of 75+ enthusiastic members. Through workshops, interactive events, and collaborative projects, we strive to make learning both engaging and meaningful. This club feels like a second family, with supportive seniors, encouraging peers, and juniors who feel like close companions.',
-    image: 'test1.png',
+    image: 'RitikRaj_GenSec.jpg',
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ const testimonials = [
     role: 'Joint Secretary',
     message:
       'I am delighted and honored to be a part of such a cohesive and empowered team that we are at BIOTS. We are a community of passionate and driven individuals who bring out the best in one another. Together, we strive to foster creativity, push boundaries and collaborate to create an impact.',
-    image: 'test1.png',
+    image: 'EkikaKumar_JointSec.jpg',
   },
   {
     id: 7,
@@ -55,7 +55,7 @@ const testimonials = [
     role: 'Treasurer',
     message:
       'As the treasurer of Biots, it has been my honor to work alongside all the members who have now become a family. This club brings biology to life through fun and creative activities, making every moment engaging and memorable. Biots is truly a rollercoaster of emotions, where you’ll find some of the best peers of your undergraduate journey.',
-    image: 'test1.png',
+    image: 'AdityaIngale_Treasurer.jpg',
   },
   {
     id: 8,
@@ -63,7 +63,7 @@ const testimonials = [
     role: 'Creative Coordinator',
     message:
       'As the Creative Coordinator of BIOTS Club, I bring ideas to life through engaging designs and innovative content. From conceptualizing event themes to curating our visual identity, my role is to ensure every creative aspect resonates with the spirit of our club, inspiring members and showcasing the endless possibilities of biotechnology.',
-    image: 'test1.png',
+    image: 'HarshVerma_CreativeCoord.jpg',
   },
   {
     id: 9,
@@ -71,7 +71,7 @@ const testimonials = [
     role: 'Creative Coordinator',
     message:
       'As the Creative Coordinator of BIOTS Club, I blend creativity with strategy to craft designs that captivate and communicate our vision. From event posters to innovative branding, I ensure every visual element enhances our identity. With attention to detail and a passion for fresh ideas, I aim to make our club stand out creatively and inspire our audience.',
-    image: 'test1.png',
+    image: 'MuaazMurshid_CreativeCoord.jpeg',
   },
   {
     id: 10,
@@ -79,7 +79,7 @@ const testimonials = [
     role: 'Technical Coordinator',
     message:
       "As the Technical Coordinator of BIOTS Club, I take pride in managing our club's digital presence, including our website and technical resources. My role involves ensuring seamless communication and accessibility for all members. Through constant updates and innovations, I aim to make our online platform a hub for knowledge, collaboration, and growth in biotechnology",
-    image: 'test1.png',
+    image: 'NikhilKumar_TechCord.png',
   },
   {
     id: 11,
@@ -87,7 +87,7 @@ const testimonials = [
     role: 'Executive Member',
     message:
       'As a member of the BIOTS Club, I have had the opportunity to engage in a unique interdisciplinary environment where science, technology, and societal impact converge. My involvement with the BIOTS Club has allowed me to explore cutting-edge topics in science, organization management and being member of a family.',
-    image: 'test1.png',
+    image: 'SaketKumar_ExeMember.jpg',
   },
   {
     id: 12,
@@ -95,7 +95,7 @@ const testimonials = [
     role: 'Executive Member',
     message:
       'I had volunteered for Hera Pheri, Spin the Wheel, and Wiki Wars, all of which had an excellent turnout and were highly engaging games. My efforts contributed to ensuring the smooth execution of these activities and enhancing the overall experience for the participants. It was truly fulfilling to be part of such an exciting and well-received set of events.',
-    image: 'test1.png',
+    image: 'SanjanaKumari_ExeMember.jpg',
   },
   {
     id: 13,
@@ -103,7 +103,7 @@ const testimonials = [
     role: 'Executive Member',
     message:
       'My time as an executive member of Biots was incredibly rewarding. I honed crucial leadership, communication, and organizational skills while collaborating with a talented team. The club fostered my passions, pushed me beyond my limits, and enabled me to contribute positively to campus life. I am thankful for the personal and professional growth this experience facilitated.',
-    image: 'test1.png',
+    image: 'AdyaPandey_ExeMember.jpg',
   },
 ]
 
@@ -149,7 +149,7 @@ const Testimonials = () => {
                 <img
                   src={testimonials[currentIndex].image}
                   alt={testimonials[currentIndex].name}
-                  className="w-20 h-20 rounded-full object-cover ms:mb-3 tb:mb-0 tb:mr-5 sm:mb-4"
+                  className="ms:w-20 ms:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28 dxl:w-32 dxl:h-32 txl:w-36 txl:h-36 aspect-square rounded-full object-cover ms:mb-3 tb:mb-0 tb:mr-5 sm:mb-4"
                 />
                 <div>
                   <h3 className="ms:text-base tb:text-lg lg:text-xl ms:text-center tb:text-justify font-bold">

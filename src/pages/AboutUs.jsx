@@ -1,5 +1,6 @@
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import Timeline from '../components/Timeline'
 import WhoWeAre from '../components/WhoWeAre'
 
 function AboutUs() {
@@ -7,6 +8,7 @@ function AboutUs() {
     <div>
       <Navbar />
       <WhoWeAre />
+      <Timeline />
       <Footer />
     </div>
   )
