@@ -1,4 +1,3 @@
-import image from '../assets/avatar.jpg'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import { TeamCardBig, TeamCardSmall } from '../components/TeamCard'
@@ -13,167 +12,105 @@ function Team() {
           <span className="block ms:w-30 ms:mt-1 lg:w-32 h-0.5 bg-black ms:mt-2 lg:mt-3 mx-auto"></span>
         </h2>
       </div>
-      <div className="w-[90%] mx-auto ms:p-2 sm:p-3 tb:p-4 flex ms:gap-4 sm:gap-6 tb:gap-8 justify-evenly">
+
+      <div className="w-[90%] mx-auto ms:p-2 sm:p-3 tb:p-4 ms:grid ms:grid-cols-2 tb:flex ms:gap-4 sm:gap-6 tb:gap-8 justify-evenly ms:mb-6 tb:mb-8">
         <TeamCardBig
-          src={image}
+          src={'AditiSingh_President.png'}
           position={'PRESIDENT'}
           name={'Aditi Singh'}
         />
         <TeamCardBig
-          src={image}
+          src={'CHINMAYPATADE_JointPresident.jpg'}
           position={'JOINT PRESIDENT'}
           name={'Chinmay Patade'}
         />
       </div>
       <div className="w-[90%] mx-auto ms:p-2 sm:p-3 tb:p-4 grid ms:grid-cols-2 tb:grid-cols-3 lg:grid-cols-4 ms:gap-4 sm:gap-6 tb:gap-8 justify-evenly ms:mb-6 tb:mb-8">
         <TeamCardSmall
-          src={image}
+          src={'AkshatRaj_VicePres.png'}
           position={'VICE PRESIDENT'}
           name={'Akshat Raj Sharma'}
         />
         <TeamCardSmall
-          src={image}
+          src={'AyushKumar_VicePres.jpg'}
           position={'VICE PRESIDENT'}
           name={'Ayush Kumar'}
         />
         <TeamCardSmall
-          src={image}
+          src={'Abhinav_EventsHead.jpg'}
           position={'EVENT HEAD'}
           name={'Abhinav Dashwant'}
         />
         <TeamCardSmall
-          src={image}
+          src={'LakshyaMishra_CreativeHead.jpg'}
           position={'CREATIVE HEAD'}
           name={'Lakshya Mishra'}
         />
+
         <TeamCardSmall
-          src={image}
-          position={'CONTENT HEAD'}
-          name={'Shreya Suman'}
-        />
-        <TeamCardSmall
-          src={image}
+          src={'AryanRajsaxena_TechHead.jpg'}
           position={'TECHNICAL HEAD'}
           name={'Aryan Raj'}
         />
         <TeamCardSmall
-          src={image}
+          src={'Aditi_PublicityHead.jpg'}
           position={'PUBLICITY HEAD'}
           name={'Aditi'}
         />
         <TeamCardSmall
-          src={image}
+          src={'RitikRaj_GenSec.jpg'}
           position={'GENERAL SECRETARY'}
           name={'Ritik Raj'}
         />
         <TeamCardSmall
-          src={image}
+          src={'EkikaKumar_JointSec.jpg'}
           position={'JOINT SECRETARY'}
           name={'Ekika Kumari'}
         />
         <TeamCardSmall
-          src={image}
+          src={'AdityaIngale_Treasurer.jpg'}
           position={'TREASURER'}
           name={'Aditya Ingale'}
         />
         <TeamCardSmall
-          src={image}
+          src={'KomalRani_EventCoord.png'}
           position={'EVENT COORDINATOR'}
           name={'Komal Rani'}
         />
         <TeamCardSmall
-          src={image}
+          src={'HarshVerma_CreativeCoord.jpg'}
           position={'CREATIVE COORDINATOR'}
           name={'Harsh Verma'}
         />
         <TeamCardSmall
-          src={image}
+          src={'MuaazMurshid_CreativeCoord.jpeg'}
           position={'CREATIVE COORDINATOR'}
           name={'Muaaz Murshid'}
         />
         <TeamCardSmall
-          src={image}
-          position={'CONTENT COORDINATOR'}
-          name={'Mayank Milind'}
-        />
-        <TeamCardSmall
-          src={image}
+          src={'NikhilKumar_TechCord.png'}
           position={'TECHNICAL COORDINATOR'}
           name={'Nikhil Kumar'}
         />
         <TeamCardSmall
-          src={image}
-          position={'PUBLICITY COORDINATOR'}
-          name={'Archeet Bandhul'}
-        />
-      </div>
-      <div className=" w-full overflow-hidden text-center ms:my-6 tb:my-8 lg:my-10">
-        <h2 className="ms:text-xl ml:text-2xl tb:text-3xl lg:text-4xl font-bold ms:mt-4 tb:mt-6 lg:mt-8 text-gray-800 relative inline-block">
-          EXECUTIVE MEMBERS
-          <span className="block ms:w-30 ms:mt-1 lg:w-32 h-0.5 bg-black ms:mt-2 lg:mt-3 mx-auto"></span>
-        </h2>
-      </div>
-
-      <div className="w-[90%] mx-auto ms:p-2 sm:p-3 tb:p-4 grid ms:grid-cols-2 tb:grid-cols-3 lg:grid-cols-4 ms:gap-4 sm:gap-6 tb:gap-8 justify-evenly ms:mb-6 tb:mb-8">
-        <TeamCardSmall
-          src={image}
-          name={'Sweta Kumari'}
+          src={'AdyaPandey_ExeMember.jpg'}
+          position={'EXECUTIVE MEMBER'}
+          name={'Adya Pandey'}
         />
         <TeamCardSmall
-          src={image}
-          name={'Komal Singh'}
-        />
-
-        <TeamCardSmall
-          src={image}
-          name={'Sonail Karmakar'}
-        />
-        <TeamCardSmall
-          src={image}
-          name={'Aparna Kumari'}
-        />
-        <TeamCardSmall
-          src={image}
+          src={'RishabhRaj_ExeMember.jpg'}
+          position={'EXECUTIVE MEMBER'}
           name={'Rishabh Raj'}
         />
         <TeamCardSmall
-          src={image}
-          name={'Shreyas Raj'}
+          src={'SaketKumar_ExeMember.jpg'}
+          position={'EXECUTIVE MEMBER'}
+          name={'Saket Kumar'}
         />
         <TeamCardSmall
-          src={image}
-          name={'Kumar Sanyam'}
-        />
-        <TeamCardSmall
-          src={image}
+          src={'SanjanaKumari_ExeMember.jpg'}
+          position={'EXECUTIVE MEMBER'}
           name={'Sanjana Kumari'}
-        />
-        <TeamCardSmall
-          src={image}
-          name={'Priyanka Sharma'}
-        />
-        <TeamCardSmall
-          src={image}
-          name={'Swarnim Raj'}
-        />
-        <TeamCardSmall
-          src={image}
-          name={'Adya Pandey'}
-        />
-
-        <TeamCardSmall
-          src={image}
-          name={'Lara Brijkaushly'}
-        />
-
-        <TeamCardSmall
-          src={image}
-          name={'Divya Barnwal'}
-        />
-
-        <TeamCardSmall
-          src={image}
-          name={'Aviroop Shi'}
         />
       </div>
       <Footer />

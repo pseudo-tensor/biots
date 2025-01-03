@@ -1,6 +1,7 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { RecoilRoot } from 'recoil'
 import './App.css'
+import AboutUs from './pages/AboutUs'
 import EventCard from './pages/Events'
 import Gallery from './pages/Gallery'
 import Home from './pages/Home'
@@ -30,6 +31,10 @@ function App() {
           <Route
             path="/team"
             element={<Team />}
+          />
+          <Route
+            path="/aboutus"
+            element={<AboutUs />}
           />
         </Routes>
       </BrowserRouter>
