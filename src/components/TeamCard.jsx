@@ -1,6 +1,6 @@
 function TeamCardBig({ src, position, name }) {
   return (
-    <div className="w-1/3 border border-neutral-400 rounded-lg">
+    <div className="tb:w-1/3 border border-neutral-400 rounded-lg">
       <div className="flex flex-col ms:h-[10rem] ml:h-[14rem] sm:h-[16rem] tb:h-[24rem] lg:h-[26rem] xl:h-[28rem] dxl:h-[32rem] txl:h-[36rem] overflow-hidden">
         {/* Image Section */}
         <div className="flex-grow relative">
