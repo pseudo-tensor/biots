@@ -132,6 +132,8 @@ function Footer() {
             <a
               href="https://www.linkedin.com/in/aditi-singh-3a5ba524b/"
               className="flex gap-2"
+              target="_blank"
+              rel="noreferrer"
             >
               <svg
                 class="h-4 w-4 text-gray-400"
@@ -183,6 +185,8 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/chinmay-patade-9a9b06222/"
                 className="flex gap-2"
+                target="_blank"
+                rel="noreferrer"
               >
                 <svg
                   class="h-4 w-4 text-gray-400"
@@ -234,8 +238,10 @@ function Footer() {
             <p>GENERAL SECRETARY</p>
             <p>
               <a
-                href="linkedin.com/in/ritikraj0005"
+                href="https://www.linkedin.com/in/ritikraj0005"
                 className="flex gap-2"
+                target="_blank"
+                rel="noreferrer"
               >
                 <svg
                   class="h-4 w-4 text-gray-400"

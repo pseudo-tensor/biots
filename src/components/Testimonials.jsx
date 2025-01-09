@@ -59,6 +59,14 @@ const testimonials = [
   },
   {
     id: 8,
+    name: 'Komal Rani',
+    role: 'Event Coordinator',
+    message:
+      "I have been actively involved in organizing events for the BIOTS Club. I help plan and manage different activities, work with the team, and make sure everything runs smoothly. My efforts aim to create meaningful and engaging events that bring our club members together and support the club's goals.",
+    image: 'KomalRani_EventCoord.jpg',
+  },
+  {
+    id: 8,
     name: 'Harsh Verma',
     role: 'Creative Coordinator',
     message:

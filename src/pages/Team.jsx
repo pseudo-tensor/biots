@@ -89,7 +89,7 @@ function Team() {
           link={'https://www.linkedin.com/in/aditya-ingale-4a84441b0/'}
         />
         <TeamCardSmall
-          src={'KomalRani_EventCoord.png'}
+          src={'KomalRani_EventCoord.jpg'}
           position={'EVENT COORDINATOR'}
           name={'Komal Rani'}
           link={'https://www.linkedin.com/in/komal-rani-3892422a9/'}
@@ -114,6 +114,7 @@ function Team() {
           src={'AdyaPandey_ExeMember.jpg'}
           position={'EXECUTIVE MEMBER'}
           name={'Adya Pandey'}
+          link={'https://www.linkedin.com/in/adya-pandey-264789286/'}
         />
         <TeamCardSmall
           src={'RishabhRaj_ExeMember.jpg'}
@@ -127,7 +128,7 @@ function Team() {
           name={'Saket Kumar'}
         />
         <TeamCardSmall
-          src={'avatar.jpg'}
+          src={'avatar.png'}
           position={'PUBLICITY COORDINATOR'}
           name={'Archeet Bandhul'}
           link={'https://www.linkedin.com/in/archeet-bandhul-7816b32b1/'}
@@ -140,21 +141,10 @@ function Team() {
         <TeamCardSmall
           src={'avatar.jpg'}
           position={'EXECUTIVE MEMBER'}
-          name={'Rishabh Raj'}
-        />
-        <TeamCardSmall
-          src={'avatar.jpg'}
-          position={'EXECUTIVE MEMBER'}
-          name={'Adya Pandey'}
-          link={'https://www.linkedin.com/in/adya-pandey-264789286/'}
-        />
-        <TeamCardSmall
-          src={'avatar.jpg'}
-          position={'EXECUTIVE MEMBER'}
           name={'Priyanka Sharma'}
         />
         <TeamCardSmall
-          src={'avatar.jpg'}
+          src={'avatar.png'}
           position={'EXECUTIVE MEMBER'}
           name={'Swarnim Raj'}
         />
@@ -169,7 +159,7 @@ function Team() {
           name={'Divya Barnwal'}
         />
         <TeamCardSmall
-          src={'avatar.jpg'}
+          src={'avatar.png'}
           position={'EXECUTIVE MEMBER'}
           name={'Aviroop Shi'}
         />
