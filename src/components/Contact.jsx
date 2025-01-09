@@ -22,7 +22,7 @@ const ContactForm = () => {
   return (
     <div
       id="contact"
-      className="tb:w-4/5 lg:3/5 mx-auto text-center font-sans m-10"
+      className=" ms:w-[90%] tb:w-[80%] lg:w-[60%] mx-auto text-center font-sans m-10"
     >
       <h2 className="ms:text-xl ml:text-2xl tb:text-3xl lg:text-4xl font-bold ms:mb-4 tb:mb-6 lg:mb-8 text-gray-800 relative inline-block">
         CONTACT US
@@ -51,7 +51,7 @@ const ContactForm = () => {
               />
             </svg>
             <div className="tb:text-md lg:text-xl my-auto font-medium text-neutral-800">
-              biotsbitmesra@gmail.com
+              biots@bitmesra.ac.in
             </div>
           </div>
         </div>

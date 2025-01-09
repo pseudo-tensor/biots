@@ -122,7 +122,7 @@ const Testimonials = () => {
     )
   }
   return (
-    <div className="ms:my-6 tb:my-8 lg:my-10">
+    <div className=" w-full ms:my-6 tb:my-8 lg:my-10">
       <div className="relative mx-auto text-center font-sans">
         <h2 className="relative ms:text-xl ml:text-2xl tb:text-3xl lg:text-4xl font-bold ms:mb-12 tb:mb-14 lg:mb-14 text-gray-800 relative inline-block">
           TESTIMONIALS
@@ -167,14 +167,14 @@ const Testimonials = () => {
           </div>
 
           {/* Navigation */}
-          <div>
+          <div className>
             <div className="flex items-center justify-center relative mt-4">
               <button
                 onClick={handlePrev}
                 className="text-gray-600 text-2xl mx-3 hover:text-gray-800 transition"
               >
                 <svg
-                  className="h-8 w-8 text-gray-800"
+                  className="ms:h-6 ms:w-6 ml:h-8 ml:w-8 text-gray-800"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -194,7 +194,7 @@ const Testimonials = () => {
               {testimonials.map((_, index) => (
                 <span
                   key={index}
-                  className={`w-2.5 h-2.5 mx-1 rounded-full cursor-pointer ${
+                  className={`ms:w-1.5 ms:h-1.5 ml:w-2.5 ml:h-2.5 mx-1 rounded-full cursor-pointer ${
                     index === currentIndex ? 'bg-gray-800' : 'bg-gray-400'
                   }`}
                   onClick={() => setCurrentIndex(index)}
@@ -205,7 +205,7 @@ const Testimonials = () => {
                 className="text-gray-600 text-2xl mx-3 hover:text-gray-800 transition"
               >
                 <svg
-                  className="h-8 w-8 text-gray-800"
+                  className="ms:h-6 ms:w-6 ml:h-8 ml:w-8 text-gray-800"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"

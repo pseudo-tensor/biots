@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const EventsSection = () => {
   return (
@@ -43,7 +43,7 @@ const EventsSection = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default EventsSection;
+export default EventsSection

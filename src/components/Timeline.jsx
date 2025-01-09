@@ -8,7 +8,7 @@ function Timeline() {
       description:
         'The industrial visit organized by the Society of Biotechnologists to Sudha Dairy, Ranchi was full of valuable insights into the dairy production process and sampling of fresh dairy products.',
       image: '6.jpg',
-      bgColor: 'bg-gray-200',
+      bgColor: 'bg-gray-100',
       textColor: 'text-gray-800',
     },
     {
@@ -16,8 +16,8 @@ function Timeline() {
       title: 'INTERNATIONAL CONFERENCE',
       description:
         "The Department of Bioengineering and Biotechnology, BIT Mesra, in association with Society of Biotechnologists (BIOTS), is thrilled to invite you to our International Conference on 'Emerging Trends in Translational Bioinformatics' (ET2B), happening from December 5th to 7th, 2024, at our picturesque campus in Ranchi, India.",
-      image: 'https://via.placeholder.com/150',
-      bgColor: 'bg-gray-600',
+      image: 'et2b.jpg',
+      bgColor: 'bg-gray-500',
       textColor: 'text-white',
     },
     {
@@ -26,7 +26,7 @@ function Timeline() {
       description:
         'The session with Mr. Rahul Thakur was packed with insights and understanding. His guidance and mentorship were truly invaluable for all the students.',
       image: '84.jpg',
-      bgColor: 'bg-gray-200',
+      bgColor: 'bg-gray-100',
       textColor: 'text-gray-800',
     },
   ]
