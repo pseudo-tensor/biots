@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const QuizEventCard = () => {
   return (
@@ -17,9 +17,10 @@ const QuizEventCard = () => {
                 INVICTUS
               </h2>
               <p className="mt-2 ms:text-xs ml:text-sm ff:text-base sm:text-md tb:text-lg">
-                It was a quizzing event which had questions from various domains
-                including entertainment, sports, current affairs, and
-                technology, and it consisted of 2 rounds.
+                Invictus is an exciting quizzing competition that challenges
+                teams across domains like entertainment, technology, sports, and
+                current affairs, sparking excitement and celebrating intellect
+                and learning.
               </p>
             </div>
           </div>
@@ -38,11 +39,9 @@ const QuizEventCard = () => {
                 WIKI WARS
               </h2>
               <p className="mt-2 ms:text-xs ml:text-sm ff:text-base sm:text-md tb:text-lg">
-                Wiki Wars is a strategic game of navigating Wikipedia pages
-                without a keyboard. Players aim to reach a target page from a
-                starting page in limited time, using the fewest clicks. They
-                progress by clicking blue Wikipedia links to move from one page
-                to another.
+                Wiki Wars is a fast-paced game where players navigate Wikipedia
+                pages, using links to reach a target page in the fewest clicks
+                and within a limited time, without using a keyboard.
               </p>
             </div>
           </div>
@@ -61,11 +60,12 @@ const QuizEventCard = () => {
                 MITACS-WEBINAR
               </h2>
               <p className="mt-2 ms:text-xs ml:text-sm ff:text-base sm:text-md tb:text-lg">
-                BIOTS hosted a Mitacs Webinar on the Globalink Research
-                Internship, funded by Canada, covering research experience,
-                skill development, and global collaborations. Experts guided
-                students on applying, boosting their academic paths and
-                analytical skills.
+                The Mitacs Webinar, organized by BIOTS, provided insights into
+                the Mitacs Globalink Research Internship, funded by the Canadian
+                government. It guided students on research experiences, skill
+                development, and global collaborations, while mentoring them on
+                applying for the internship to enhance their academic and
+                analytical abilities.
               </p>
             </div>
           </div>
@@ -84,10 +84,9 @@ const QuizEventCard = () => {
                 BIOMEME
               </h2>
               <p className="mt-2 ms:text-xs ml:text-sm ff:text-base sm:text-md tb:text-lg">
-                Meme enthusiasts across campus crafted biotech-themed humor,
-                blending creativity with science. Participants showcased skills,
-                submitting memes as JPEGs/PDFs via Google Forms. The event
-                sparked excitement and a passion for new creative expression.
+                Biomeme invites memesters and comic geniuses to create memes
+                that blend creativity, humor, and biological facts, making
+                science fun and accessible for all.
               </p>
             </div>
           </div>
@@ -106,10 +105,10 @@ const QuizEventCard = () => {
                 PHIR HERA PHERI
               </h2>
               <p className="mt-2 ms:text-xs ml:text-sm ff:text-base sm:text-md tb:text-lg">
-                Meme enthusiasts across campus crafted biotech-themed humor,
-                blending creativity with science. Participants showcased skills,
-                submitting memes as JPEGs/PDFs via Google Forms. The event
-                sparked excitement and a passion for new creative expression.
+                Phir Hera Pheri is an exciting treasure hunt that challenges
+                participants to crack cryptic clues, navigate thrilling
+                adventures, and work as a team to uncover the treasure. It’s a
+                journey of exploration, perseverance, and teamwork.
               </p>
             </div>
           </div>
@@ -118,7 +117,7 @@ const QuizEventCard = () => {
         {/* SPIN THE WHEEL CARD */}
         <div className="relative group w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
           <img
-            src="PhirHeraPheri.jpg"
+            src="SpinTheWheel.jpg"
             alt="Spin the Wheel"
             className="w-full h-full object-cover transition-all duration-300 group-hover:blur-sm"
           />
@@ -128,17 +127,17 @@ const QuizEventCard = () => {
                 SPIN THE WHEEL
               </h2>
               <p className="mt-2 ms:text-xs ml:text-sm ff:text-base sm:text-md tb:text-lg">
-                Meme enthusiasts across campus crafted biotech-themed humor,
-                blending creativity with science. Participants showcased skills,
-                submitting memes as JPEGs/PDFs via Google Forms. The event
-                sparked excitement and a passion for new creative expression.
+                Spin the Wheel is a fun, interactive event where movie
+                enthusiasts create unique narratives and roleplay mismatched
+                characters, using creativity and storytelling to think outside
+                the box.
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default QuizEventCard;
+export default QuizEventCard

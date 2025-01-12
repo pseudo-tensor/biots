@@ -1,6 +1,17 @@
-import React, { useState } from 'react'
+import { useForm } from '@formspree/react'
+import React, { useEffect, useState } from 'react'
+const apiKey = import.meta.env.VITE_API_KEY
 
 const ContactForm = () => {
+  const [state, handleSubmit, reset] = useForm(apiKey)
+
+  useEffect(() => {
+    if (state.succeeded) {
+      alert('Submitted Successfully')
+      reset
+    }
+  }, [state.succeeded])
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -11,12 +22,6 @@ const ContactForm = () => {
   const handleChange = (e) => {
     const { name, value } = e.target
     setFormData({ ...formData, [name]: value })
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log('Form Data Submitted:', formData)
-    alert('Form submitted successfully!')
   }
 
   return (
@@ -197,6 +202,7 @@ const ContactForm = () => {
           <button
             type="submit"
             className="mx-auto ms:w-full mt-3 py-2 bg-gradient-to-r from-gray-100 to-gray-300 border border-gray-300 text-neutral-800 ms:text-md tb:text-lg ls:text-xl font-medium p-2 rounded-md cursor-pointer hover:text-gray-100 hover:bg-gradient-to-r hover:from-gray-400 hover:to-gray-600 hover:shadow-xl transition"
+            disabled={state.submitting}
           >
             Send
           </button>
